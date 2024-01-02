@@ -1,0 +1,50 @@
+.contact{
+    text-align: center;
+    margin: 4% 0px;
+}
+.contact-block{
+    width: 80%;
+    margin: auto;
+}
+table{
+    width: 100%;
+}
+th,td{
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+th,td {
+    text-align: left;
+}
+th {
+    padding: 1.25% 1%;
+    background-color: greenyellow;
+}
+td{
+    padding: 1% 1%;
+}
+tbody tr:hover{
+    background-color: purple;
+}
+
+.apply{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.apply>a{
+    border-radius: 50px;
+    border: 1px purple solid;
+    padding: 1%;
+    margin-top: 5%;
+    animation-name: a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: greenyellow;
+}
+@keyframes a {
+    from {background-color: purple;}
+    to {background-color: gray;}
+  }

@@ -1,0 +1,250 @@
+.clear{
+    clear: both;
+}
+.heading{
+    text-align: center;
+    padding: 30px 0px;
+}
+.Apply-block {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heading2{
+    margin-top: 0.67%;
+    text-align: center;
+    padding: 1%;
+    font-size: larger;
+    }
+
+.hadded{
+    text-align: center;
+    padding: 1%;
+    float: left;
+    width: 27%;
+    margin-right: 1%;
+    overflow: hidden;
+    border: 2px solid purple;
+    border-radius: 20px;
+    background-color: gray;
+    position: absolute;
+    z-index: -1;
+    height: 1.3em;
+    padding: 0.2%;
+}
+#engineeringhadded{
+    top: 0%;
+    left: 0px;
+    padding: 0.5%;
+}
+#sciencehadded{
+    top: 0%;
+    left: 32%;
+    padding: 0.5%;
+}
+#idstdshadded{
+    top: 0%;
+    left: 66%;
+    padding: 0.5%;  
+}
+.coe{
+    /* display: inline-block; */
+    /* border: 1px solid purple;
+    border-radius: 10px; */
+    padding: 5px;
+    width: 32%;
+    padding-left: 8px;
+    height: 1.2em;
+    text-align: center;
+    padding: 1%;
+    width: 27%;
+    margin-right: 1%;
+    overflow: hidden;
+    border: 2px solid purple;
+    border-radius: 20px;
+    background-color: white;
+    float: left;
+    height: 1.3em;
+    padding: 0.2%;
+}
+.cos{
+    /* display: inline-block; */
+    /* border: 1px solid purple;
+    border-radius: 10px; */
+    padding: 5px;
+    width: 32%;
+    height: 1.2em;
+    text-align: center;
+    padding: 1%;
+    width: 27%;
+    margin-right: 1%;
+    overflow: hidden;
+    border: 2px solid purple;
+    border-radius: 20px;
+    background-color: gray;
+    float:left;
+    height: 1.3em;
+    padding: 0.2%;
+}
+.ids{
+    /* display: inline-block; */
+    /* border: 1px solid purple;
+    border-radius: 10px; */
+    padding: 5px;
+    width: 32%;
+    height: 1.2em;
+    text-align: center;
+    padding: 1%;
+    width: 27%;
+    margin-right: 1%;
+    overflow: hidden;
+    border: 2px solid purple;
+    border-radius: 20px;
+    background-color: gray;
+    float:left;
+    height: 1.3em;
+    padding: 0.2%;
+}
+.heading2{
+    margin-bottom: 5px;
+}
+.College-of-Engineering{
+    display: none;
+}
+
+.College-of-Science{
+    display: none;
+}
+
+.College-of-Interdisciplinary-Studies{
+    display: none;
+}
+/* .coe:hover ~ .College-of-Engineering{
+    display: inline-block;
+}
+
+.cos:hover ~ .College-of-Science{
+    display: inline-block;
+}
+
+.ids:hover ~ .College-of-Interdisciplinary-Studies{
+    display: inline-block;
+}
+.College-of-Interdisciplinary-Studies:hover{
+    display: inline-block;
+}
+.College-of-Science:hover{
+    display: inline-block;
+}
+.College-of-Engineering:hover{
+    display: inline-block;
+}
+ */
+.event {
+    display: inline-block;
+}
+form{
+    float: left;
+    width: 32%;
+    outline: 2px solid purple;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 7px;
+    transition: transform 1s linear;
+    -webkit-transition: transform 1s linear;
+}
+/* form:hover{
+    background-color: gray;
+    transform: scale(1.25,1.25);
+    -webkit-transform: scale(1.05,1.05);
+    box-shadow: rgba(0, 0, 0, 0.63) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px
+} */
+.College-of-Engineering{
+    width: 100%;
+}
+.College-of-Science{
+    width: 100%;
+}
+.College-of-Interdisciplinary-Studies{
+    width: 100%;
+}
+
+.College-of-Engineering:hover ~ #engineeringhadded{
+    background-color: white;
+}
+.College-of-Science:hover ~ #sciencehadded{
+    background-color: white;
+}
+.College-of-Interdisciplinary-Studies:hover ~ #idstdshadded{
+    background-color: white;
+}
+.coe:hover ~ #engineeringhadded{
+    background-color: white;
+}
+.cos:hover ~ #sciencehadded{
+    background-color: white;
+}
+.ids:hover ~ #idstdshadded{
+    background-color: white;
+}
+
+.The-resulting-block{
+    margin-top: 5%;
+}
+.time{
+    margin-bottom: 1%;
+}
+.The-resulting-block table{
+    width: 100%;
+}
+table th,table td{
+    border: 2px solid black;
+}
+th {
+    padding: 7px 3px;
+    font-size: 20px;
+}
+td {
+    padding: 7px 3px;
+}
+table{
+    border-collapse: collapse;
+    text-align: left;
+}
+thead{
+    background-color: green;
+    color: white;
+}
+tbody tr:nth-child(odd){
+    background-color: #D3D3D3;
+}
+tbody tr:nth-child(even){
+    background-color: white;
+}
+tbody tr:hover{
+    background-color: purple;
+    color: white;
+}
+
+.button-link {
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+}
+.button-link:active {
+    color: black;
+}
+
+#tberror{
+    text-align: center;
+    color: red;
+}
+
+
+
+
+

@@ -1,0 +1,38 @@
+.header{
+    text-align: center;
+    color: gray;
+}
+.Apply-block,.heading2,.heading,nav,.the-welcome-block{
+    display: none;
+}
+.The-resulting-block{
+    margin-top: 10%;
+    width: 100%;
+}
+.The-resulting-block table{
+    width: 100%;
+}
+table th,table td{
+    border: 2px solid gray;
+}
+th {
+    padding: 7px 3px;
+    font-size: 20px;
+}
+td {
+    padding: 7px 3px;
+}
+table{
+    border-collapse: collapse;
+    text-align: left;
+}
+.footer{
+    text-align: center;
+}
+.button-link {
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+}

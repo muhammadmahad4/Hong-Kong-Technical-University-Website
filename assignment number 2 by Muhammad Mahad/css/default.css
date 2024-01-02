@@ -1,0 +1,96 @@
+/* making all margins and padding zero */
+* {
+    margin: 0px;
+}
+/* styling header and footer */
+.header{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(109.6deg, rgb(0, 37, 84) 11.2%, rgba(0, 37, 84, 0.32) 100.2%);
+    width: 100%;
+}
+
+@keyframes headanimation {
+    from {color: purple;}
+    to {color: white;}
+  }
+
+.headanimation{
+    animation-name: headanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    padding: 1%;
+}
+@keyframes footer {
+    from {background-color: white;}
+    to {background-color: rgb(38, 38, 38);}
+  }
+.footer{
+    animation-name: footer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    font-family: Helvetica;
+}
+.footer a{
+    color: yellowgreen;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}
+/* setting nav block and making it horizontal*/
+/* giving nav background color */
+/* setting nav block and making it horizontal*/
+/* giving nav background color */
+.nav {
+    background-color: black;
+    text-align: center;
+}
+ /* making nav in single line */
+.nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 10px 35px;
+    margin: 0px 5px;
+    color: white;
+    font-size: 20px;
+}
+
+/* nav pseudo class*/
+nav a{
+    transition: transform 1s linear;
+    -webkit-transition: transform 1s linear;
+}
+@keyframes nav {
+    from {background-color: black;}
+    to {background-color: gray;}
+  }
+nav a:hover {
+    animation-name: nav;
+    animation-duration: 2s;
+    background-color: gray;
+    transform: scale(1.05,1.05);
+    -webkit-transform: scale(1.05,1.05);
+
+}
+nav a:visited{
+    color: aqua;
+}
+nav a:active{
+    background-color: teal;
+}
+nav a:link{
+    color: white;
+}
+
+::selection{
+    background-color: teal;
+    color: yellow;
+}

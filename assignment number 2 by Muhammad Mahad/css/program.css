@@ -1,0 +1,108 @@
+.program{
+    text-align: center;
+    font-size: 50px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+}
+
+.promotion-information-block1{
+    border-radius: 20px;
+    border: 2px solid purple;
+    transition: transform 1s linear;
+    -webkit-transition: transform 1s linear;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.promotion-information-block1:hover{
+    transform: scale(1.25,1.25);
+    -webkit-transform: scale(1.05,1.05);
+}
+.promotion-information-block2{
+    border-radius: 20px;
+    border: 2px solid purple;
+    transition: transform 1s linear;
+    -webkit-transition: transform 1s linear;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.promotion-information-block2:hover{
+    transform: scale(1.25,1.25);
+    -webkit-transform: scale(1.05,1.05);
+}
+.promotion-information-block1>.heading, .promotion-information-block2>.heading{
+    float: left;
+    width: 47%;
+    text-align: center;
+    font-size: 2em;
+    padding: 30px 5px;
+}
+@keyframes a {
+    from {background-color: purple;}
+    to {background-color: gray;}
+  }
+.promotion-information-block1>.heading>a,.promotion-information-block2>.heading>a{
+    border-radius: 50px;
+    border: 1px purple solid;
+    padding: 1%;
+    margin-top: 5%;
+    animation-name: a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: greenyellow;
+}
+.promotion-information-block1>video{
+    float: left;
+    width:50%;
+
+}
+.clear{
+    clear: both;
+}
+
+.promotion-information-block2{
+    margin-top: 20px;
+}
+.promotion-information-block2>h3{
+    float: left;
+    width: 47%;
+    text-align: center;
+    font-size: 2em;
+    padding: 30px 5px;
+}
+.promotion-information-block2>video{
+    float: left;
+    width:50%;
+}
+.information-table-block{
+    clear: both;
+}
+td,th {
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+    padding: 8px 3px;
+}
+td{
+    padding: 7px 3px;
+}
+table{
+    width: 96%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table thead{
+    background-color: gray;
+    color: white;
+}
+tbody tr:nth-child(odd){
+    background-color: #D3D3D3;
+}
+tbody tr:nth-child(even){
+    background-color: white;
+}
+
+tbody tr:hover{
+    background-color: purple;
+    color: white;
+}

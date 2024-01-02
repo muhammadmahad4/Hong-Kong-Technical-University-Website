@@ -1,0 +1,91 @@
+.Welcome-Block{
+    background-color: #D3D3D3;
+    text-align: center;
+}
+
+.columns {
+    width: 100%;
+    margin-top: 5%;
+    height: 100%;
+} 
+.image-Block{
+    float: left;
+    width: 40%;
+    border: 2px solid purple;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-left: 9%;
+    transition: transform 1s linear;
+    -webkit-transition: transform 1s linear;
+}
+.map{
+    width: 100%;
+    display: block;
+}
+.location-block{
+    float: right;
+    width: 35%;
+    height: 100%;
+    border: 2px solid purple;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 1%;
+    margin-right: 9%;
+    font-size: 25px;
+    transition: transform 1s linear;
+    -webkit-transition: transform 1s linear;
+    overflow: auto;
+}
+.clear{
+    clear: both;
+}
+
+.location-block:hover{
+    transform: scale(1.25,1.25);
+    -webkit-transform: scale(1.05,1.05);
+}
+.image-Block:hover{
+    transform: scale(1.25,1.25);
+    -webkit-transform: scale(1.05,1.05);
+}
+.reservation-block{
+    clear: both;
+    width: 100%;
+    background-color:#D3D3D3;
+    margin-top: 4%;
+    padding: 1% 0px;
+}
+.reservation-block > h3{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#form{
+    margin: 0 auto;
+    margin-bottom: 1%;
+    width: 60%;
+}
+
+label{
+    text-align: right;
+    width: 12%;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+form {
+    position: relative;
+}
+.buttons{
+    position: absolute;
+    left: 12%; 
+}
+fieldset{
+    padding-bottom: 3%;
+}
+#error{
+    text-align: center;
+    margin-top: 1%;
+    color: red;
+}
